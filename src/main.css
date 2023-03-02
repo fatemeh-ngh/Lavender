@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'yekanR';
+    src: url('./assets/font/iranyekanwebregular.woff') format('woff');
+}
+@font-face {
+    font-family: 'yekanM';
+    src: url('./assets/font/iranyekanwebmedium.woff') format('woff');
+}
+*{
+    font-family: 'yekanM';
+}
