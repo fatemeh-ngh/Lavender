@@ -5,9 +5,14 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'landing': "url('./src/assets/pictures/landing.jpg')",
+      }
+    },
     colors: {
       primaryColor: '#613DA9',
+      primaryColorHover: '#613DA971',
       secondaryColor: 'd9cce6',
       white: '#ffffff',
     },
@@ -17,7 +22,11 @@ module.exports = {
         md: '14px',
         lg: '16px',
         xl: '24px',
+        xxl: '40px',
     }
   },
   plugins: [],
+  corePlugins: {
+    // preflight: false,
+  }
 }
