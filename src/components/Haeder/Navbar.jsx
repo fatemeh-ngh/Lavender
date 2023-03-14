@@ -10,7 +10,6 @@ const tea = [
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.antgroup.com"
-          // className=" text-white bg-primaryColor"
         >
           چای
         </a>
@@ -37,7 +36,6 @@ const tea = [
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.antgroup.com"
-          // className=" text-white bg-primaryColor"
         >
           دمی چکه ای
         </a>
@@ -52,7 +50,6 @@ const tea = [
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.antgroup.com"
-          // className=" text-white bg-primaryColor"
         >
           روغن های گیاهی
         </a>
@@ -65,7 +62,6 @@ const tea = [
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.antgroup.com"
-          // className=" text-white bg-primaryColor"
         >
           روغن های خوراکی
         </a>
@@ -80,7 +76,6 @@ const tea = [
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.antgroup.com"
-          // className=" text-white bg-primaryColor"
         >
           کره بادام زمینی
         </a>
@@ -104,11 +99,11 @@ const Navbar = () => {
         >
           <DropDowns name="چای و دمنوش" items={tea} />
           <DropDowns name="قهوه" items={coffee} />
-          <li>عرقیات گیاهی</li>
+          <li className="cursor-pointer">عرقیات گیاهی</li>
           <DropDowns name="روغن های گیاهی" items={oil} />
           <DropDowns name="کره ها" items={butter} />
-          <li>درباره ما</li>
-          <li>وبلاگ</li>
+          <li className="cursor-pointer">درباره ما</li>
+          <li className="cursor-pointer">وبلاگ</li>
         </ConfigProvider>
       </ul>
     </div>
