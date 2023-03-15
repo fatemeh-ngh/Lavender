@@ -1,12 +1,11 @@
-import React from 'react';
-
+import React from "react";
 //pages
-import Landing from './pages/Landing';
+import Landing from "./pages/Landing";
 
 const App = () => {
   return (
     <>
-      <Landing/>
+      <Landing />
     </>
   );
 };
