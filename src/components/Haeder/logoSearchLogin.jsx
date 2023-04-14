@@ -1,7 +1,7 @@
 import React from "react";
 import { Tooltip } from "antd";
 //images
-import logo from "../../assets/pictures/logo.png";
+import logo from "../../assets/pictures/lavenderlogo.svg";
 import lavender from "../../assets/pictures/lavender.jpeg";
 import { ShoppingOutlined } from "@ant-design/icons";
 
@@ -20,11 +20,10 @@ const LogoSearchLogin = () => {
       </div>
       <div className="flex flex-col items-center bg-white ">
         <Tooltip title="لوگوی لاوندر" color="#613DA9" placement="left">
-          <img src={logo} alt="" />
+          <img src={logo} alt="logo" className="w-10" />
         </Tooltip>
-        <img src={lavender} alt="" />
-        <p className="text-xs mt-1 text-primaryColor">
-          محصولات گیاهی و خانگی لاوندر
+        <p className="text-xl mt-1 text-primaryColor font-serif">
+          Lavender
         </p>
       </div>
       <div className="flex">
