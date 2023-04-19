@@ -2,7 +2,6 @@ import React from "react";
 import { Tooltip } from "antd";
 //images
 import logo from "../../assets/pictures/lavenderlogo.svg";
-import lavender from "../../assets/pictures/lavender.jpeg";
 import { ShoppingOutlined } from "@ant-design/icons";
 
 const LogoSearchLogin = () => {
