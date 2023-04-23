@@ -10,6 +10,9 @@ module.exports = {
         'landing': "url('./src/assets/pictures/landing.jpg')",
         '21' : "url(./src/assets/pictures/21.jpeg)",
         '22' : "url(./src/assets/pictures/22.jpeg)",
+        '33' : "url(./src/assets/pictures/33.jpeg)",
+        '34' : "url(./src/assets/pictures/34.jpeg)",
+        '35' : "url(./src/assets/pictures/35.jpeg)",
       }
     },
     colors: {
